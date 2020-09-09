@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  
+  "rules": {
+    "no-unused-vars": "warn",
+    "prefer-const": "error"
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "amd": true
+  },
+  "rules": {
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "object-curly-spacing": "off",
+    "require-jsdoc": "off"
+  },
+  "extends": ["eslint:recommended", "google"]
+  
+}
