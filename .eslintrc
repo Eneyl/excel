@@ -1,13 +1,7 @@
 {
   "parser": "babel-eslint",
   
-  "rules": {
-    "arrow-parens": "off",
-    "comma-dangle": "off",
-    "object-curly-spacing": "off",
-    "require-jsdoc": "off",
-    "linebreak-style": ["error", "windows"]
-  },
+ 
   "env": {
     "es6": true,
     "browser": true,
@@ -15,6 +9,12 @@
     "amd": true,
     
   },
-  "extends": ["eslint:recommended", "google"]
-  
+  "extends": ["eslint:recommended", "google"],
+  "rules": {
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "object-curly-spacing": "off",
+    "require-jsdoc": "off",
+    "linebreak-style": [2, " windows "]
+  },
 }
