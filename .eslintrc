@@ -14,7 +14,9 @@
     "comma-dangle": "off",
     "object-curly-spacing": "off",
     "require-jsdoc": "off",
-    "linebreak-style": [2, " windows "]
+    "linebreak-style": [2, "windows"],
+    "operator-linebreak": "off",
+    "indent": [2, 2]
   },
   "extends": ["eslint:recommended", "google"]
   
